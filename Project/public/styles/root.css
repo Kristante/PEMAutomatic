@@ -1,0 +1,16 @@
+:root{
+    --white: white;
+    --MainGreen: #2E8739;
+    --HoverGreen: #54E165;
+    --DisableGreen: #9CD3A3;
+    --ClickGreen: #5CCD6A;
+    --TextGreen: #78C081;
+    --TitleGreen: #495E4C;
+    --TextGray: #848484;
+    --BackgroundGreen: #D9FADD;
+    --BackgroundRadius: 65px 0 0 65px;
+    --InputGreen: #7CA381B2;
+    --BackgroundSecondGreen: #BAFFC380;
+    --BackgroundSecondGreen-rgb: 186, 255, 195;
+    --BackgroundGray: #F3F5F4;
+}

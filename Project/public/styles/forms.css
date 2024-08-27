@@ -1,0 +1,121 @@
+.overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.contact__form {
+    position: relative;
+    background-color: var(--BackgroundGreen);
+    border-radius: 15px;
+    width: 460px;
+}
+
+.contact__form-title {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: var(--TitleGreen);
+    padding: 35px 35px 20px 35px;
+}
+
+.contact__form-form{
+    background: var(--BackgroundGray);
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.contact__form-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.contact__form-input {
+    padding: 16px 0 16px 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    height: 35px;
+    box-shadow: 0 0 3px 3px #495D4C1A;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: var(--TextGreen);
+
+}
+
+.contact__form-input::placeholder{
+    color: var(--TextGreen);
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.contact__form-button {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.close-button {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    font-size: 60px;
+    background: var(--MainGreen);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: var(--white);
+    padding: 12px 12px 20px 12px;
+}
+
+.contact__form-logo{
+    width: 100%;
+}
+
+.overlay2 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.contact__form-second{
+    position: relative;
+    background-color: var(--BackgroundGreen);
+    border-radius: 15px;
+    width: 460px;
+}
+
+.close-button-second {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    font-size: 60px;
+    background: var(--MainGreen);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: var(--white);
+    padding: 12px 12px 20px 12px;
+}

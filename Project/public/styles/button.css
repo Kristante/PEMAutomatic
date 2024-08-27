@@ -1,0 +1,55 @@
+.button{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: var(--white);
+    background-color: var(--MainGreen);
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.button:hover{
+    background-color: var(--HoverGreen);
+    transition: .5s ease-in-out;
+}
+
+.button:disabled{
+    background-color: var(--DisableGreen);
+    cursor: not-allowed;
+}
+
+.button__arrow-left{
+    background: transparent;
+    background-image: url("../images/buttons/activeleft.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.button__arrow-right {
+    background: transparent;
+    background-image: url("../images/buttons/activeright.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.button__arrow-left:disabled{
+    background-image: url("../images/buttons/disableleft.svg");
+}
+
+.button__arrow-right:disabled{
+    background-image: url("../images/buttons/disableright.svg");
+}
